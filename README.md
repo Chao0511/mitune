@@ -6,7 +6,7 @@ This repository is the official implementation of ICLR 2025 paper [Information T
 
 ![main figure](src/assets/MITUNE_visu.PNG)
 
-[![Project Website](https://img.shields.io/badge/Project-Website-blue)](https://github.com/Chao0511/mitune)
+[![Project Website](https://img.shields.io/badge/Project-Website-blue)](https://chao0511.github.io/mitune/)
 [![arXiv](https://img.shields.io/badge/arXiv-2405.20759-b31b1b.svg)](https://arxiv.org/abs/2405.20759)
 
 
