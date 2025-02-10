@@ -4,7 +4,7 @@ This repository is the official implementation of ICLR 2025 paper [Information T
 
 [Chao Wang](https://scholar.google.com/citations?user=uPQKC84AAAAJ&hl=zh-CN), [Giulio Franzese](https://scholar.google.com/citations?user=kEtx_WwAAAAJ&hl=it), [Alessandro Finamore](https://afinamore.io/), [Massimo Gallo](https://gallomassimo.github.io/), [Pietro Michiardi](https://michiard.eurecom.io/). 
 
-![main figure](assets/MITUNE_visu.PNG)
+![main figure](src/assets/MITUNE_visu.PNG)
 
 [![Project Website](https://img.shields.io/badge/Project-Website-blue)](https://github.com/Chao0511/mitune)
 [![arXiv](https://img.shields.io/badge/arXiv-2405.20759-b31b1b.svg)](https://arxiv.org/abs/2405.20759)
