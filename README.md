@@ -7,13 +7,14 @@ This repository is the official implementation of ICLR 2025 paper [Information T
 [![Project Website](https://img.shields.io/badge/Project-Website-blue)](https://chao0511.github.io/mitune/)
 [![arXiv](https://img.shields.io/badge/arXiv-2405.20759-b31b1b.svg)](https://arxiv.org/abs/2405.20759)
 
-![main figure](src/assets/MITUNE_visu.PNG)
-
-
 ---
 ## 👀 Summary
 
 We propose MI-TUNE, a novel fine-tuning method for text-to-image generative diffusion models, that uses mutual information to align generated images to user intentions through natural prompts. 
+
+
+![main figure](src/assets/MITUNE_visu.PNG)
+
 
 
 ## 🛠️ Setup
