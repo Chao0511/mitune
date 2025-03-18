@@ -1,16 +1,25 @@
 # Information Theoretic Text-to-Image Alignment
 
-This repository is the official implementation of ICLR 2025 paper [Information Theoretic Text-to-Image Alignment](https://arxiv.org/abs/2405.20759), led by
+This repository is the official implementation of 
+ICLR 2025 paper [Information Theoretic Text-to-Image Alignment](https://arxiv.org/abs/2405.20759) 
+and
+ICLR 2025 Delta workshop paper [RFMI: Estimating Mutual Information on Rectified Flow for Text-to-Image Alignment](https://openreview.net/forum?id=8CogNH4vBp), 
 
-[Chao Wang](https://scholar.google.com/citations?user=uPQKC84AAAAJ&hl=zh-CN), [Giulio Franzese](https://scholar.google.com/citations?user=kEtx_WwAAAAJ&hl=it), [Alessandro Finamore](https://afinamore.io/), [Massimo Gallo](https://gallomassimo.github.io/), [Pietro Michiardi](https://michiard.eurecom.io/). 
+led by
+
+[Chao Wang](https://chao0511.github.io/chaowang-website/), [Giulio Franzese](https://scholar.google.com/citations?user=kEtx_WwAAAAJ&hl=it), [Alessandro Finamore](https://afinamore.io/), [Massimo Gallo](https://gallomassimo.github.io/), [Pietro Michiardi](https://michiard.eurecom.io/). 
 
 [![Project Website](https://img.shields.io/badge/Project-Website-blue)](https://chao0511.github.io/mitune/)
 [![arXiv](https://img.shields.io/badge/arXiv-2405.20759-b31b1b.svg)](https://arxiv.org/abs/2405.20759)
+[![arXiv](https://img.shields.io/badge/arXiv--b31b1b.svg)]()
 
 ---
 ## 👀 Summary
 
-We propose MI-TUNE, a novel fine-tuning method for text-to-image generative diffusion models, that uses mutual information to align generated images to user intentions through natural prompts. 
+We propose MI-TUNE and RFMI-TUNE, 
+a famility of novel self-supervised fine-tuning methods 
+for text-to-image diffusion models and rectified flow models, 
+that uses mutual information to align generated images to user intentions through natural prompts. 
 
 
 ![main figure](src/assets/MITUNE_visu.PNG)
@@ -33,6 +42,8 @@ conda activate mitune_env
 ## 🗺️ Usage
 
 MI-TUNE supports the finetuning of diffusion-based models: [stabilityai/stable-diffusion-2-1-base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base) and [stabilityai/stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0).
+
+RFMI-TUNE supports the finetuning of flow matching-based models: [stabilityai/stable-diffusion-3.5-medium](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium).
 
 
 ### Finetuning dataset construction
