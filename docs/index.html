@@ -106,7 +106,9 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-2 publication-title"><span class="MITUNE">Information Theoretic Text-to-Image Alignment</h1>
+            <h1 class="title is-2 publication-title"><span class="MITUNE">
+              Information Theoretic Text-to-Image Alignment <br/> RFMI: Estimating Mutual Information on Rectified Flow for Text-to-Image Alignment
+            </h1>
             
               <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
@@ -164,22 +166,17 @@
   <div class="columns is-centered" style="margin-top:-20px">
     <h1 class="is-size-4"> 
       <mark style="background: rgb(255, 255, 102)"> 
-        We propose MI-TUNE, a novel fine-tuning method for text-to-image generative diffusion models, 
-        
-        <!-- We decrease CFG gudiance weight to 0 &lt; $ \lambda $ &lt; 1 by revising DDIM renoising step. -->
-        <!-- Change $ \hat\epsilon^w_c $ → $ \hat\epsilon_\varnothing $ in CFG renoising -->
+        We propose MI-TUNE and RFMI-TUNE, a novel famility of self-supervised fine-tuning methods 
+        for text-to-image diffusion models and rectified flow models, 
+        that uses mutual information to align generated images to user intentions through natural prompts. 
+        <!-- We propose MI-TUNE, a novel fine-tuning method for text-to-image generative diffusion models, -->
   </div>
-  <div class="columns is-centered" style="margin-top:-10px">
+  <!-- <div class="columns is-centered" style="margin-top:-10px">
     <h1 class="is-size-4"> 
       <mark style="background: rgb(255, 255, 102)"> 
         that uses mutual information to align generated images to user intentions through natural prompts. 
-        <!-- Revise DDIM renoising step  -->
-        <!-- ➜ smaller guidance scale 0 &lt; $ \lambda $ &lt; 1  better sampling & inversion -->
-        <!-- smooth generative trajectory, better sample quality, and superior inversion capability.</mark></h1> -->
-      <!-- <mark style="background: rgb(255, 255, 102)"> &#128073; smaller guidance scale 0 &lt; $ \lambda $ &lt; 1,  -->
-        <!-- better sample & inversion quality -->
       </mark></h1>
-  </div> 
+  </div>  -->
 
   <div class="hero-body">
   <div class="container">
@@ -226,7 +223,11 @@
 
 
           <div class="content has-text-justified" style="margin-top:-15px; margin-bottom: 30px;">
-            <img src="static/images/algos.PNG" alt="mi_algos">
+            <img src="static/images/algos.PNG" alt="mitune_algos">
+          </div>
+
+          <div class="content has-text-justified" style="margin-top:-15px; margin-bottom: 30px;">
+            <img src="static/images/algos_RFMI.PNG" alt="rfmi_algos">
           </div>
   
 

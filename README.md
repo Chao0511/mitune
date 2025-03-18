@@ -17,7 +17,7 @@ led by
 ## 👀 Summary
 
 We propose MI-TUNE and RFMI-TUNE, 
-a famility of novel self-supervised fine-tuning methods 
+a novel famility of self-supervised fine-tuning methods 
 for text-to-image diffusion models and rectified flow models, 
 that uses mutual information to align generated images to user intentions through natural prompts. 
 
